@@ -1,0 +1,11 @@
+{
+  "name": "TeleporterLoopSpeedUp",
+  "version_number": "1.0.1",
+  "website_url": "https://github.com/sylvie-va/TeleporterLoopSpeedUp/",
+  "description": "Exponentially speed up the teleporter with every loop.",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.2122",
+    "RiskofThunder-R2API_Core-5.3.0",
+    "Rune580-Risk_Of_Options-2.8.6"
+  ]
+}
