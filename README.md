@@ -3,6 +3,9 @@ Exponentially speeds up the teleporter by a multiplier (default 2x) whenever you
 
 This mod exists because I believe buying or forgetting to buy Focused Convergence every run, once you start looping, is a slog.
 
+# Functionality
+- Multiplier adjustable with RiskOfOptions or config file
+
 # Contact
 sylvieqq on Discord.
 
