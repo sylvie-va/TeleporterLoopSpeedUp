@@ -19,11 +19,8 @@ namespace TeleLoopSpeedUp
                                                             perLoopMultiplier, 
                                                             "Exponentional Teleporter speedup multiplier.");
 
-                perLoopMultiplier = config.Value;
-                config.SettingChanged += (sender, args) => { perLoopMultiplier = config.Value; };
-
                 // Slider: Teleporter Speedup Multiplier
-                ModSettingsManager.AddOption(new SliderOption(config, new SliderConfig{ min = 1f, max = 5f, FormatString = "{0:0.00}" }));
+                ModSettingsManager.AddOption(new SliderOption(config, new SliderConfig{ min = 1f, max = 5f, increment = 0.1f , FormatString = "{0:0.00}" }));
 
                 On.RoR2.HoldoutZoneController.OnEnable += HoldoutZoneController_OnEnable;
             }
