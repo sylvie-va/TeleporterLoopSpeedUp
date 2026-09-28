@@ -1,6 +1,6 @@
 ## v1.0.2
 - Improved multiplier incrementing in RiskOfOptions
-- Improved RiskOfOptions Integration
+- Improved internal RiskOfOptions integration
 
 ## v1.0.1
 - Added missing R2API-Core dependency
