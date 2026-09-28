@@ -7,7 +7,7 @@ using R2API.Utils;
 
 namespace TeleLoopSpeedUp
 {
-    [BepInPlugin("sylvie.TeleLoopSpeedUp", "TeleLoopSpeedUp", "1.0.0")]
+    [BepInPlugin("sylvie.TeleLoopSpeedUp", "TeleLoopSpeedUp", "1.0.2")]
     [NetworkCompatibility(CompatibilityLevel.NoNeedForSync, VersionStrictness.DifferentModVersionsAreOk)]
     public sealed class TeleLoopSpeedUp : BaseUnityPlugin
     {
